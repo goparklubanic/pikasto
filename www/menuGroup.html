@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--meta http-equiv="Content-Security-Policy"
+          content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval';
+          style-src 'self' 'unsafe-inline';
+          media-src *; img-src 'self' data: content:;"-->
+        <meta http-equiv="Content-Security-Policy"
+			  content="default-src *;
+			  style-src * 'unsafe-inline';
+			  script-src * 'unsafe-inline' 'unsafe-eval'
+							http://*.google.com
+                               http://*.gstatic.com
+                               http://*.googleapis.com
+                               http://*.firebaseio.com
+                               https://*.google.com
+                               https://*.gstatic.com
+                               https://*.googleapis.com
+                               https://*.firebaseio.com;                               ;
+			  img-src * data: 'unsafe-inline';
+			  connect-src * 'unsafe-inline';
+			  frame-src *;" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!--link rel="stylesheet" type="text/css" href="css/google-fonts.css"-->
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script type="text/javascript" src="js/remoteservice.js"></script>
+        <script type="text/javascript" src="js/menuGroup.js"></script>
+        <title>PIKASTO</title>
+    </head>
+    <body>
+      <div class="container-fluid pikas">
+		 <div class='waiter-header'>
+       <p>
+       <span>PIKASTO</span>
+       <span class='home-icon'>
+         <img src='img/home.png' id="home" />
+       </span>
+       </p>
+		 </div>
+		 <div class="main-content">
+       <div id="orderDetil">
+       </div>
+       <h3>Daftar Menu ..</h3>
+		   <div id='menuGroups' class='list-group'>
+
+		   </div>
+       <a class='btn btn-primary' href='index.html'>Selesai ..</a>
+		 </div>
+		 <div class='waiter-footer'>
+			<p>Developed by CV. Citra Agung Banjarnegara</p>
+		 </div>
+	  </div>
+    </body>
+</html>

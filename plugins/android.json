@@ -1,0 +1,46 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "id.web.klubaner.pikasto"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "id.web.klubaner.pikasto"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "id.web.klubaner.pikasto"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "id.web.klubaner.pikasto"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "id.web.klubaner.pikasto"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "id.web.klubaner.pikasto"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "id.web.klubaner.pikasto"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "id.web.klubaner.pikasto"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "id.web.klubaner.pikasto"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "id.web.klubaner.pikasto"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "id.web.klubaner.pikasto"
+    }
+  }
+}

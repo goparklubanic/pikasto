@@ -1,0 +1,45 @@
+.pikas {
+  position: absolute; width: 100%; height: 100%;
+  background:#67623A;
+}
+
+.main-content{
+	width: 100%; height: 80vh; padding: 1%;
+	background-color: #E7E7E7; color: #333333;
+  overflow: auto;
+}
+.main-content h3{
+	background-color: #000000; color: #F2F2F2;
+	margin: 0px 0px 5px 0px;
+	padding: 10px 15px;
+}
+#userdata {
+  margin: 20px 0px; background: #F0F0F0;
+}
+.waiter-header, .waiter-footer{
+	height: 10vh; width: 100%; margin:0; padding: 10px;
+	text-align: center; color: #FFFFFF; font-family: serif;
+}
+.waiter-header p {font-size: 1.6em; font-weight:bold;letter-spacing: 5px;}
+.waiter-footer{font-size: 0.8em;}
+
+.list-group-item{padding: 15px 0px 15px 15px;}
+.menuqty {width: 50px; margin-right: 15px; font-size: 14px; text-align:right;}
+.round-border {
+  border: 1px solid #ffd600; border-radius: 50%; width: 30px;
+  padding: 5px; background-color: #f9e999;
+}
+/* background:linear-gradient(#67623a,#f2f2f2); */
+
+.home-icon {float:right; margin-right: 15px;}
+.home-icon img {width: 40px;}
+
+#loginbox {
+  padding: 20px;
+}
+#regol{
+  width: 160px; margin: 40px auto;
+}
+
+#regol img {width:100%;}
+#logout{cursor: pointer;}
